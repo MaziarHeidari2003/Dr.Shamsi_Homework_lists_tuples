@@ -1,3 +1,7 @@
+"""
+this one is not correct , so check for another file
+"""
+
 from random import randint
 
 def main():
@@ -21,12 +25,12 @@ def random_matrix():
     second_matrix.append(second_rows)   
 
   result_matrix = []
-  for c in range(3):
-    result_rows = [] 
-    for d in range(5):
-      result_rows.append(first_matrix[c][d] *second_matrix[d][c])
-    result_matrix.append(result_rows)  
-
+  for i in range(3):
+    sum = 0
+    for c in range(5):
+      sum += first_matrix[0][c] * second_matrix[0][c]
+    result_matrix[i][].append(sum)  
+   
   print(result_matrix)  
 
     
